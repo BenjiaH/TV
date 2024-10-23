@@ -2,8 +2,7 @@ name: 'update schedule'
 
 on:
   schedule:
-    - cron: '0 5 * * *'
-  timezone: Asia/Shanghai
+    - cron: '0 21 * * *'
   workflow_dispatch:
     branches:
       - master
